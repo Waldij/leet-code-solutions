@@ -1,6 +1,17 @@
-class Solution:
-    def convert(self, s: str, numRows: int) -> str:
-        pass
+class Solution(object):
+    def convert(self, s, numRows):
+        if numRows == 1 or numRows >= len(s):
+            return s
+        slices = [''] * numRows
+        index, step = 0, 1
+        for char in s:
+            slices[index] += char
+            if index == 0:
+                step = 1
+            if index == numRows - 1:
+                step = -1
+            index += step
+        return ''.join(slices)
 
 
 def main():
