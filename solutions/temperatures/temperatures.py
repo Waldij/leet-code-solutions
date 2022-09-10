@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from solutions.temperatures.helpers.stack import Stack
+from data_structures.stack import Stack
 
 
 @dataclass

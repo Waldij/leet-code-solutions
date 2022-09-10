@@ -1,8 +1,8 @@
 import pytest
 from typing import List, Any
 
-from solutions.temperatures.helpers.stack import Stack
-from tests.stack_test.data import StackBaseTestData, StackMethodsTestData
+from data_structures.stack import Stack
+from tests.data_structures_test.stack_test.data import StackBaseTestData, StackMethodsTestData
 
 
 class TestStack:
