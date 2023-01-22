@@ -19,3 +19,11 @@ class Stack(Node):
 
     def __str__(self) -> str:
         return f'Stack({self.as_list()})'
+
+
+def main():
+    pass
+
+
+if __name__ == '__main__':
+    main()

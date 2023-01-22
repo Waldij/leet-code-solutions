@@ -6,6 +6,7 @@ class Solution:
         xor = 0
         for val in nums:
             xor ^= val
+            print(xor)
         return xor
 
     def singleNumber1(self, nums: List[int]) -> int:

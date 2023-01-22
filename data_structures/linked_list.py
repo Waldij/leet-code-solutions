@@ -36,3 +36,11 @@ class Node:
 
     def __len__(self) -> int:
         return self._length
+
+
+def main():
+    pass
+
+
+if __name__ == '__main__':
+    main()
